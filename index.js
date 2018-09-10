@@ -26,7 +26,7 @@ function iLoveTheBeatles (num) {
     num++
   }
 
-  if (num = 17) {
+  if (num == 17) {
     arr.push("I love the Beatles!")
   }
 
