@@ -20,10 +20,14 @@ function johnLennonFacts (facts) {
 
 function iLoveTheBeatles (num) {
   var arr = [];
-  if (num = 17) {return "I love the Beatles!"}
+
   while (num < 15) {
     arr.push ("I love the Beatles!")
     num++
+  }
+
+  if (num = 17) {
+    arr.push("I love the Beatles!")
   }
 
   return arr;
